@@ -1,2 +1,2 @@
 let time = Date.now
-$("#time").html("cool")
+$("#time").html(time)

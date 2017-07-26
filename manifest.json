@@ -1,6 +1,6 @@
 {
-  "name" : "Future News",
-  "description" : "Gets news and weather updates",
+  "name" : "FrenchConnection",
+  "description" : "Merge the worlds of NYC and Paris",
   "version" : "0.0.1",
   "manifest_version": 2,
   "icons" : {
@@ -8,8 +8,5 @@
   },
   "chrome_url_overrides" : {
   "newtab" : "index.html"
-  },
-"background" : {
-  "scripts" : ["jquery-3.2.1.min.js" , "scripts.js"]
-}
+  }
 }
