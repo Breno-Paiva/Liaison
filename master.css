@@ -31,3 +31,20 @@ section {
   margin: 10px;
   padding: 5px;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nyc {
+  width: 50%;
+}
+
+.paris {
+  width: 50%;
+}
+
+h1  {
+  text-align: center;
+}
