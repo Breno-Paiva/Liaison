@@ -2,11 +2,6 @@ body {
   background: whitesmoke
 }
 
-#time {
-  border: 1px solid black;
-  background: salmon;
-}
-
 #news {
   border: 1px solid black;
   background: lightcyan;
@@ -37,11 +32,11 @@ section {
   flex-direction: row;
 }
 
-.nyc {
+.ny {
   width: 50%;
 }
 
-.paris {
+.pr {
   width: 50%;
 }
 

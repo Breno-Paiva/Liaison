@@ -1,5 +1,7 @@
-$("#time").load("time/time.html", function(){
-  countTime();
+$("#ny-time").load("time/ny_time.html", function(){
+  $("#pr-time").load("time/pr_time.html", function(){
+    countTime();
+  });
 });
 
 countTime = function(){
