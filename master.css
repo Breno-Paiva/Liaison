@@ -2,11 +2,6 @@ body {
   background: whitesmoke
 }
 
-#weather {
-  border: 1px solid black;
-  background: plum;
-}
-
 section {
   margin: 10px;
   padding: 5px;
