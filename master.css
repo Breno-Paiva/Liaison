@@ -2,11 +2,6 @@ body {
   background: whitesmoke
 }
 
-#translate {
-  border: 1px solid black;
-  background: palegreen;
-}
-
 #weather {
   border: 1px solid black;
   background: plum;
