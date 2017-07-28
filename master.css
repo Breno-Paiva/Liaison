@@ -1,3 +1,33 @@
 body {
-  background: teal
+  background: whitesmoke
+}
+
+#time {
+  border: 1px solid black;
+  background: salmon;
+}
+
+#news {
+  border: 1px solid black;
+  background: lightcyan;
+}
+
+#translate {
+  border: 1px solid black;
+  background: palegreen;
+}
+
+#weather {
+  border: 1px solid black;
+  background: plum;
+}
+
+#currency {
+  border: 1px solid black;
+  background: thistle;
+}
+
+section {
+  margin: 10px;
+  padding: 5px;
 }
