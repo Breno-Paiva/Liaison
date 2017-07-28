@@ -1,2 +1,4 @@
-$("#news").load("news/news.html", function(){
+$("#ny-news").load("news/ny_news.html", function(){
+  $("#pr-news").load("news/pr_news.html", function(){
+  });
 });
