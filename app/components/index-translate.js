@@ -8,8 +8,11 @@ export default Ember.Component.extend({
     translate(fromLang, toLang, val){
       let info = "translate " + val + " in " + fromLang + " to " + toLang
       let toLangClass = '.' + toLang
-      console.log(translateKey)
-      $(toLangClass).val(info)
+      $.ajax({
+        type: "POST",
+        url: "https://translation.googleapis.com/language/translate/v2",
+        data: {  'q': val, 'target': toLang, 'key': translateKey}
+      }).then(ans => $(toLangClass).val(ans.data.translations[0].translatedText))
     }
   }
 });
