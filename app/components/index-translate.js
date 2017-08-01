@@ -1,6 +1,11 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  tagName: 'nav',
-  classNames: ['translate']
+  classNames: ['translate'],
+  actions: {
+    translate(fromLang, toLang){
+      let info = "translate" + fromLang + "to" + toLang
+      console.log(info)
+    }
+  }
 });
