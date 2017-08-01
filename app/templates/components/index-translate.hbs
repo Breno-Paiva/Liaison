@@ -1,6 +1,6 @@
 <h2>Translate</h2>
 <h3>{{from-language}}</h3>
-<textarea class={{from-language}} name="name" rows="3" cols="40"></textarea>
-<button onClick={{action 'log'}} type="button" name="button">to {{to-language}}</button>
+{{textarea class=from-language type=text rows=3 cols=40 value=val}}
+<button onClick={{action 'translate' from-language to-language val}} type="button" name="button">to {{to-language}}</button>
 
 {{yield}}
